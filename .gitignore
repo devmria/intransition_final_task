@@ -1,0 +1,22 @@
+node_modules
+.env
+.env.local
+.env.production
+.env.test
+
+# Client build
+client/dist
+
+# Server build  
+server/dist
+
+# Logs
+*.log
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db

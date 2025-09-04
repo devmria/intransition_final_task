@@ -1,0 +1,9 @@
+{
+  "name": "intransition-workspace",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client", 
+    "packages/*"
+  ]
+}

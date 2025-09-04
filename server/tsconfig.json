@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": "src",
+    "paths": {
+      "~*": ["*"],
+      "@intransition/shared-types": ["../../packages/shared-types"]
+    }
+  },
+  "exclude": [
+    "dist",
+    "prisma",
+    "node_modules"
+  ]
+}
