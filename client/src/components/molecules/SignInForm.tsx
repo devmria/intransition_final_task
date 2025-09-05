@@ -40,6 +40,7 @@ export const SignInForm = () => {
       <Form>
       <Box mb={3} textAlign="center">
         <Typography variant="h4" component="h1" gutterBottom fontWeight="bold">Welcome back</Typography>
+        <Typography variant="h4" component="h2" gutterBottom fontWeight="bold">Administrator account: admin@mail.com (password: 1)</Typography>
         <Typography variant="body2" >Sign in to access your inventory management system</Typography>
       </Box>
 
