@@ -149,6 +149,7 @@ export const InventoryCreateDialog = ({ open, onClose, onSuccess }: Props) => {
               />
 
               <TextField
+                disabled
                 name="imageUrl"
                 label="Image URL"
                 value={values.imageUrl}
@@ -157,7 +158,7 @@ export const InventoryCreateDialog = ({ open, onClose, onSuccess }: Props) => {
                 error={touched.imageUrl && Boolean(errors.imageUrl)}
                 helperText={'Optional: add an image to represent this inventory'}
                 fullWidth
-                disabled={isSubmitting}
+                //disabled={isSubmitting}
               />
 
               <FormControlLabel
